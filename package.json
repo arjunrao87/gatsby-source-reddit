@@ -1,0 +1,19 @@
+{
+  "name": "typescript-starter",
+  "version": "0.1.0",
+  "description": "Starter for all typescript packages",
+  "main": "src/index.ts",
+  "repository": "https://github.com/arjunrao87/gatsby-source-documentary-hunt.git",
+  "author": "Arjun Rao ( arjunrao87 )",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tslint": "^5.10.0"
+  },
+  "scripts":{
+    "dev": "tsc && yarn start",
+    "start": "node dist/index.js"
+  }
+}
