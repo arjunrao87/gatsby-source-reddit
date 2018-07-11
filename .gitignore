@@ -1,2 +1,6 @@
 node_modules/
 dist/
+/nodes.js
+/gatsby-node.js
+/fetch.js
+/query.js
