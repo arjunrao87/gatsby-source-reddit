@@ -11,7 +11,6 @@ exports.sourceNodes = async (
   }
 ) => {
   const { createNode } = boundActionCreators
-  subredditName = "aristotle"
   const data = await fetchData({
     apiURL,
     username,

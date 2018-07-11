@@ -28,7 +28,6 @@
   "scripts": {
     "build": "babel src --out-dir . --ignore **/__tests__",
     "prepare": "cross-env NODE_ENV=production npm run build",
-    "watch": "babel -w src --out-dir . --ignore **/__tests__",
-    "dev": "yarn run build && node gatsby-node.js"
+    "watch": "babel -w src --out-dir . --ignore **/__tests__"
   }
 }
