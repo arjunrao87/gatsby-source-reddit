@@ -4,6 +4,10 @@ Source plugin for pulling data into Gatsby from [Reddit API](https://www.graphql
 
 # Usage
 
+## NPM
+
+Package available [here](https://www.npmjs.com/package/gatsby-source-reddit)
+
 ## Available parameters
 - username : user for who you want to query data
 - subredditName : subreddit for which you want to query data
