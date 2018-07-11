@@ -1,4 +1,4 @@
-# gatsby-source-reddit
+# gatsby-source-reddit ![npm](https://img.shields.io/npm/v/gatsby-source-reddit.svg) ![npm](https://img.shields.io/npm/dt/gatsby-source-reddit.svg)
 
 Source plugin for pulling data into Gatsby from [Reddit API](https://www.graphqlhub.com/playground/reddit)
 
