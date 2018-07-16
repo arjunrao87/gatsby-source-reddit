@@ -16,6 +16,6 @@ exports.sourceNodes = async (
     username,
     subredditName,
   })
-  const node = Node(capitalize(data.fullNameId), data)
+  const node = Node(capitalize(data.fullnameId), data)
   createNode(node)
 }
