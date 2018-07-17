@@ -4,3 +4,4 @@ dist/
 /gatsby-node.js
 /fetch.js
 /query.js
+/index.js
