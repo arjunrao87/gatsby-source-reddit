@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-reddit",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Gatsby source for reddit",
   "repository": "https://github.com/arjunrao87/gatsby-source-reddit.git",
   "author": "Arjun Rao ( arjunrao87 )",

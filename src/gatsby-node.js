@@ -1,5 +1,4 @@
 import fetchData from "./fetch"
-import { Node } from "./nodes"
 import crypto from 'crypto';
 
 exports.sourceNodes = ({ actions, createNodeId }, configOptions) => {
