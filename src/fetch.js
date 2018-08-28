@@ -2,10 +2,9 @@ import axios from "axios"
 import {user, subreddit} from "./query"
 import { isObject, startsWith, forEach } from "lodash"
 
-module.exports = async ({ apiURL, username, subredditName }) => {
+module.exports = async ({ apiURL = "https://www.graphqlhub.com/graphql", username, subredditName }) => {
   console.time("Fetch Reddit data")
   const query = username ? user(username) : subreddit(subredditName);
-  // Make API request.
   const {data} = await axios({ url:apiURL,
                                   method: 'post',
                                   data: {

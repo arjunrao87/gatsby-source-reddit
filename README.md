@@ -12,15 +12,29 @@ Package available [here](https://www.npmjs.com/package/gatsby-source-reddit)
 - username : user for who you want to query data
 - subredditName : subreddit for which you want to query data
 
+If neither is provided, then an empty node with a random ID is passed back
+
 ## gatsby-config.js
-```
+```javascript
 // In your gatsby-config.js
 plugins: [
   {
     resolve: `gatsby-source-reddit`,
     options: {
       username:`gallowboob`
-      subredditName:``
+    }
+  },
+]
+```
+
+or
+
+```javascript
+plugins: [
+  {
+    resolve: `gatsby-source-reddit`,
+    options: {
+      subreddit:`pics`
     }
   },
 ]

@@ -1,18 +1,19 @@
 {
   "name": "gatsby-source-reddit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Gatsby source for reddit",
-  "main": "src/index.j  s",
   "repository": "https://github.com/arjunrao87/gatsby-source-reddit.git",
   "author": "Arjun Rao ( arjunrao87 )",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
-    "lodash": "^4.17.10",
-    "gatsby-node-helpers": "^0.1.3"
+    "crypto": "^1.0.1",
+    "gatsby-node-helpers": "^0.1.3",
+    "global": "^4.3.2",
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
+    "babel-cli": "^6.26.0",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-runtime": "^6.23.0",

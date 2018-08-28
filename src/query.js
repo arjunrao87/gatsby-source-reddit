@@ -56,9 +56,6 @@ fragment UserDetails on RedditUser {
           author {
             ...UserDetails
           }
-          comments {
-            ...CommentDetails
-          }
         }
         newListings {
           title
@@ -95,9 +92,6 @@ fragment UserDetails on RedditUser {
           author {
             ...UserDetails
           }
-          comments {
-            ...CommentDetails
-          }
         }
         topListings {
           title
@@ -107,9 +101,6 @@ fragment UserDetails on RedditUser {
           url
           author {
             ...UserDetails
-          }
-          comments {
-            ...CommentDetails
           }
         }
       }
